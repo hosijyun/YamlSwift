@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/behrang/YamlSwift.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/hosijyun/YamlSwift.git" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files = "Yaml/*.swift"
+  s.source_files = "Sources/Yaml/*.swift"
 
   # --- Target xcconfig ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.pod_target_xcconfig = {
