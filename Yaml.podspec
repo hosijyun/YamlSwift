@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "Yaml"
-  s.version      = "3.4.0"
+  s.version      = "3.4.1"
   s.summary      = "Load YAML and JSON documents using Swift"
   s.description  = <<-DESC
                 YamlSwift parses a string of YAML document(s) (or a JSON document)
@@ -28,9 +28,5 @@ Pod::Spec.new do |s|
   s.source_files = "Sources/Yaml/*.swift"
 
   # --- Target xcconfig ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.pod_target_xcconfig = {
-    'SWIFT_VERSION' => '4.0',
-    'APPLICATION_EXTENSION_API_ONLY' => 'YES',
-  }
 
 end
